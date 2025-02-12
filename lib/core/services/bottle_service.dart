@@ -1,47 +1,55 @@
-import 'package:shared_preferences/shared_preferences.dart';
-import 'dart:convert';
-
+import 'package:hive/hive.dart';
 import 'package:test_pixelfield/core/models/bottle.dart';
 
 class BottleService {
-  static const String _storageKey = 'bottles';
+  static const String boxName = 'bottlesBox';
+  Box<Bottle>? _bottleBox;
 
-  /// Save the list of bottles to SharedPreferences
+  Future<void> init() async {
+    _bottleBox = await Hive.openBox<Bottle>(boxName);
+  }
+
+  void _checkInitialization() {
+    if (_bottleBox == null) {
+      throw Exception('BottleService not initialized. Call init() first.');
+    }
+  }
+
   Future<void> saveBottles(List<Bottle> bottles) async {
-    final prefs = await SharedPreferences.getInstance();
-    final jsonList = bottles.map((bottle) => bottle.toJson()).toList();
-    final jsonString = jsonEncode(jsonList);
-    await prefs.setString(_storageKey, jsonString);
+    _checkInitialization();
+    await _bottleBox!.clear();
+    for (var i = 0; i < bottles.length; i++) {
+      await _bottleBox!.put(i, bottles[i]);
+    }
   }
 
-  /// Load the list of bottles from SharedPreferences
-  Future<List<Bottle>> loadBottles() async {
-    final prefs = await SharedPreferences.getInstance();
-    final jsonString = prefs.getString(_storageKey);
-
-    if (jsonString == null) return [];
-
-    final List<dynamic> jsonList = jsonDecode(jsonString);
-    return jsonList.map((json) => Bottle.fromJson(json)).toList();
+  List<Bottle> loadBottles() {
+    _checkInitialization();
+    return _bottleBox!.values.toList();
   }
 
-  /// Add a new bottle to storage
   Future<void> addBottle(Bottle bottle) async {
-    final bottles = await loadBottles();
-    bottles.add(bottle);
-    await saveBottles(bottles);
+    _checkInitialization();
+    await _bottleBox!.add(bottle);
   }
 
-  /// Remove a bottle by its bottleNumber
   Future<void> removeBottle(String bottleNumber) async {
-    final bottles = await loadBottles();
-    bottles.removeWhere((bottle) => bottle.bottleNumber == bottleNumber);
-    await saveBottles(bottles);
+    _checkInitialization();
+    final bottles = loadBottles();
+    final index =
+        bottles.indexWhere((bottle) => bottle.bottleNumber == bottleNumber);
+    if (index != -1) {
+      await _bottleBox!.deleteAt(index);
+    }
   }
 
-  /// Clear all bottles from storage
   Future<void> clearBottles() async {
-    final prefs = await SharedPreferences.getInstance();
-    await prefs.remove(_storageKey);
+    _checkInitialization();
+    await _bottleBox!.clear();
+  }
+
+  Future<void> close() async {
+    _checkInitialization();
+    await _bottleBox!.close();
   }
 }
