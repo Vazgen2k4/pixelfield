@@ -47,9 +47,11 @@ flutter_native_splash:
   android_gravity: center 
   ios_content_mode: center 
   background_image: "assets/splash/bg.png" 
+  
   android_12:
     image: "assets/splash/logo.png" 
     background_image: "assets/splash/bg.png" 
+    fullscreen: true
     
 
 flutter:  
@@ -60,4 +62,3 @@ flutter:
     - assets/images/
     - assets/icons/
     - assets/bottles.json
-  
