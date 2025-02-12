@@ -40,25 +40,23 @@ flutter_icons:
   image_path: "assets/images/logo.png"
 
 flutter_native_splash:
-  color: "#FFFFFF" 
-  image: assets/images/logo.png 
+  image: "assets/splash/logo.png" 
   android: true 
   ios: true 
   web: true 
   android_gravity: center 
   ios_content_mode: center 
-  background_image: assets/images/bg.png 
+  background_image: "assets/splash/bg.png" 
   android_12:
-    image: assets/images/logo.png 
-    background_image: assets/images/bg.png 
-    icon_background_color: "#FFFFFF" 
+    image: "assets/splash/logo.png" 
+    background_image: "assets/splash/bg.png" 
     
 
 flutter:  
   uses-material-design: true
   assets:
-    - assets/images/logo.png
-    - assets/images/bg.png
+    - assets/splash/logo.png
+    - assets/splash/bg.png
     - assets/images/
     - assets/icons/
     - assets/bottles.json
