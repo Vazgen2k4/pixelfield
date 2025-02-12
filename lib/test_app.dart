@@ -1,19 +1,21 @@
 import 'package:flutter/material.dart';
+import 'package:test_pixelfield/core/router/router.dart';
 
 class TestApp extends StatelessWidget {
-  const TestApp({super.key});
+  final AppRouter appRouter;
+
+  const TestApp({
+    super.key,
+    required this.appRouter,
+  });
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Test App'),
-        ),
-        body: const Center(
-          child: Text('Hello, World!'),
-        ),
+    return MaterialApp.router(
+      theme: ThemeData.dark(
+        useMaterial3: true,
       ),
+      routerConfig: appRouter.config(),
     );
   }
 }
