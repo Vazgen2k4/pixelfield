@@ -3,12 +3,12 @@ import 'package:flutter/material.dart';
 import 'package:test_pixelfield/core/theme/app_colors.dart';
 import 'package:test_pixelfield/features/auth/presentation/widgets/secondary_button.dart';
 
-class LabelButton extends StatelessWidget {
+class LabelButtonWidget extends StatelessWidget {
   final String text;
   final VoidCallback? onPressed;
   final String label;
 
-  const LabelButton({
+  const LabelButtonWidget({
     super.key,
     required this.text,
     required this.label,
