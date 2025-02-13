@@ -1,8 +1,8 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:test_pixelfield/core/router/router.dart';
-import 'package:test_pixelfield/core/widgets/page_wrapper.dart';
-import 'package:test_pixelfield/core/widgets/title.dart';
+import 'package:test_pixelfield/core/presentation/widgets/page_wrapper.dart';
+import 'package:test_pixelfield/core/presentation/widgets/title.dart';
 import 'package:test_pixelfield/features/auth/presentation/widgets/label_button.dart';
 import 'package:test_pixelfield/features/auth/presentation/widgets/primary_button.dart';
 
@@ -34,9 +34,12 @@ class LoginPage extends StatelessWidget {
             ),
             Hero(
               tag: 'button',
-              child: PrimaryButtonWidget(
-                onPressed: () => context.router.replaceAll([HomeRoute()]),
-                text: 'Continue',
+              child: SizedBox(
+                width: double.infinity,
+                child: PrimaryButtonWidget(
+                  onPressed: () => context.router.replaceAll([HomeRoute()]),
+                  text: 'Continue',
+                ),
               ),
             ),
             LabelButtonWidget(

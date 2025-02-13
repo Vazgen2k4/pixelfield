@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:test_pixelfield/core/theme/app_colors.dart';
+import 'package:test_pixelfield/core/presentation/theme/app_colors.dart';
 
 class SecondaryButtonWidget extends StatelessWidget {
   final String text;

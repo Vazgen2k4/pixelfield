@@ -16,7 +16,7 @@ class CollectionRepositoryImpl implements CollectionRepository {
   });
 
   @override
-  Future<List<Bottle>> getCollection(String collectionId) async {
+  Future<List<Bottle>> getCollection() async {
     if (await _hasInternetConnection()) {
       final collection = await remoteDataSource.fetchCollection();
       await localDataSource.cacheCollection(collection);
@@ -28,7 +28,7 @@ class CollectionRepositoryImpl implements CollectionRepository {
 
   @override
   Future<List<Bottle>> getBottleByNumber(String collectionId) async {
-    final collection = await getCollection(collectionId);
+    final collection = await getCollection();
     return collection
         .where((bottle) => bottle.bottleNumber == collectionId)
         .toList();

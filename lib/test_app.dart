@@ -1,8 +1,9 @@
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:flutter/material.dart';
 import 'package:test_pixelfield/core/router/router.dart';
-import 'package:test_pixelfield/core/theme/app_colors.dart';
+import 'package:test_pixelfield/core/presentation/theme/app_colors.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:test_pixelfield/core/presentation/theme/app_themes.dart';
 import 'package:test_pixelfield/features/collection/domain/repositories/collection_repository.dart';
 import 'package:test_pixelfield/features/collection/domain/usecases/get_bottle_by_number.dart';
 import 'package:test_pixelfield/features/collection/domain/usecases/get_collection.dart';
@@ -21,10 +22,16 @@ class TestApp extends StatelessWidget {
     return MultiBlocProvider(
       providers: [
         BlocProvider(
-          create: (context) => CollectionCubit(
-            getCollectionUseCase: params.getCollectionUseCase,
-            getBottleByNumberUseCase: params.getBottleByNumberUseCase,
-          ),
+          create: (context) {
+            final cubit = CollectionCubit(
+              getCollectionUseCase: params.getCollectionUseCase,
+              getBottleByNumberUseCase: params.getBottleByNumberUseCase,
+            );
+            
+            cubit.fetchCollection();
+            
+            return cubit;
+          },
         ),
         BlocProvider(
           create: (context) => ConnectivityCubit(params.connectivity),
@@ -61,40 +68,7 @@ class _AppContent extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp.router(
-      theme: ThemeData.dark(
-        useMaterial3: true,
-      ).copyWith(
-        scaffoldBackgroundColor: AppColors.blackSecondary,
-        inputDecorationTheme: InputDecorationTheme(
-          suffixIconColor: WidgetStateColor.resolveWith((states) {
-            return states.contains(WidgetState.focused)
-                ? AppColors.primary
-                : AppColors.greyPrimary;
-          }),
-          focusedBorder: UnderlineInputBorder(
-            borderSide: BorderSide(
-              color: AppColors.primary,
-              width: .5,
-            ),
-          ),
-          enabledBorder: UnderlineInputBorder(
-            borderSide: BorderSide(
-              color: AppColors.greySecondary,
-              width: .5,
-            ),
-          ),
-          floatingLabelStyle: TextStyle(
-            fontWeight: FontWeight.normal,
-            color: AppColors.primary,
-          ),
-          labelStyle: TextStyle(
-            color: AppColors.greyPrimary,
-            fontWeight: FontWeight.normal,
-            fontSize: 16,
-            height: 24 / 16,
-          ),
-        ),
-      ),
+      theme: AppThemes.kDarkTheme,
       routerConfig: appRouter.config(),
     );
   }

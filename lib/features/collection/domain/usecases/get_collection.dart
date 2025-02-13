@@ -6,7 +6,7 @@ class GetCollectionUseCase {
 
   GetCollectionUseCase(this.repository);
 
-  Future<List<Bottle>> call(String collectionId) {
-    return repository.getCollection(collectionId);
+  Future<List<Bottle>> call() {
+    return repository.getCollection();
   }
 }

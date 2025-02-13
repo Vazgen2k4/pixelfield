@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'package:test_pixelfield/core/theme/app_colors.dart';
+import 'package:test_pixelfield/core/presentation/theme/app_colors.dart';
 import 'package:test_pixelfield/features/auth/presentation/widgets/secondary_button.dart';
 
 class LabelButtonWidget extends StatelessWidget {

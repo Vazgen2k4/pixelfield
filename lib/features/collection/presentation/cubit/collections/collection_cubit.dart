@@ -15,10 +15,10 @@ class CollectionCubit extends Cubit<CollectionState> {
     required this.getBottleByNumberUseCase,
   }) : super(CollectionInitial());
 
-  Future<void> fetchCollection(String collectionId) async {
+  Future<void> fetchCollection() async {
     emit(CollectionLoading());
     try {
-      final collection = await getCollectionUseCase(collectionId);
+      final collection = await getCollectionUseCase();
       emit(CollectionLoaded(collection));
     } catch (e) {
       emit(CollectionError(e.toString()));

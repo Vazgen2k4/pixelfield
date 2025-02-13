@@ -1,6 +1,6 @@
 [
     {
-        "name": "Talisker 18 Year Old",
+        "name": "Talisker",
         "bottleNumber": "#2504",
         "details": {
             "distillery": "Talisker Distillery",
@@ -35,7 +35,7 @@
         "imagePath": "assets/images/bottle.png"
     },
     {
-        "name": "Glenfiddich 21 Year Old",
+        "name": "Glenfiddich",
         "bottleNumber": "#3412",
         "details": {
             "distillery": "Glenfiddich Distillery",
@@ -70,7 +70,7 @@
         "imagePath": "assets/images/bottle.png"
     },
     {
-        "name": "Macallan 12 Year Old",
+        "name": "Macallan ",
         "bottleNumber": "#4321",
         "details": {
             "distillery": "Macallan Distillery",
@@ -105,7 +105,7 @@
         "imagePath": "assets/images/bottle.png"
     },
     {
-        "name": "Yamazaki 18 Year Old",
+        "name": "Yamazaki",
         "bottleNumber": "#1234",
         "details": {
             "distillery": "Suntory Yamazaki Distillery",
@@ -140,7 +140,7 @@
         "imagePath": "assets/images/bottle.png"
     },
     {
-        "name": "Lagavulin 16 Year Old",
+        "name": "Lagavulin",
         "bottleNumber": "#5678",
         "details": {
             "distillery": "Lagavulin Distillery",
@@ -175,7 +175,7 @@
         "imagePath": "assets/images/bottle.png"
     },
     {
-        "name": "Glenlivet 18 Year Old",
+        "name": "Glenlivet",
         "bottleNumber": "#6789",
         "details": {
             "distillery": "Glenlivet Distillery",
@@ -210,7 +210,7 @@
         "imagePath": "assets/images/bottle.png"
     },
     {
-        "name": "Balvenie 12 Year Old",
+        "name": "Balvenie ",
         "bottleNumber": "#7890",
         "details": {
             "distillery": "Balvenie Distillery",
@@ -245,7 +245,7 @@
         "imagePath": "assets/images/bottle.png"
     },
     {
-        "name": "Ardbeg 10 Year Old",
+        "name": "Ardbeg",
         "bottleNumber": "#8901",
         "details": {
             "distillery": "Ardbeg Distillery",
@@ -280,7 +280,42 @@
         "imagePath": "assets/images/bottle.png"
     },
     {
-        "name": "Glenmorangie 10 Year Old",
+        "name": "Glenmorangie",
+        "bottleNumber": "#9012",
+        "details": {
+            "distillery": "Glenmorangie Distillery",
+            "region": "Highlands",
+            "country": "Scotland",
+            "type": "Single Malt Scotch Whisky",
+            "ageStatement": "10 Years Old",
+            "filled": "2020-06-10",
+            "bottled": "2020-12-25",
+            "caskNumber": "9012",
+            "abv": 43.0,
+            "size": "700ml",
+            "finish": "Fruity, Floral"
+        },
+        "tastingNotes": [
+            {
+                "author": "Richard Paterson",
+                "title": "Nose",
+                "description": "Honey, vanilla, and citrus fruits."
+            }
+        ],
+        "history": [
+            {
+                "label": "Standard Release",
+                "title": "Glenmorangie 10 Year Old",
+                "description": "Glenmorangie 10 Year Old is the classic, iconic expression of Glenmorangie.",
+                "imagePaths": [
+                    "assets/images/bottle.png"
+                ]
+            }
+        ],
+        "imagePath": "assets/images/bottle.png"
+    },
+    {
+        "name": "Test",
         "bottleNumber": "#9012",
         "details": {
             "distillery": "Glenmorangie Distillery",
