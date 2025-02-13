@@ -1,6 +1,5 @@
 import 'package:hive/hive.dart';
 
-
 @HiveType(typeId: 3)
 class TastingNote {
   @HiveField(0)
@@ -17,8 +16,15 @@ class TastingNote {
     required this.title,
     required this.description,
   });
-}
 
+  factory TastingNote.fromJson(Map<String, dynamic> json) {
+    return TastingNote(
+      author: json['author'],
+      title: json['title'],
+      description: json['description'],
+    );
+  }
+}
 
 class TastingNoteAdapter extends TypeAdapter<TastingNote> {
   @override

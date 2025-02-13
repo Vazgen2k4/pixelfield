@@ -1,6 +1,5 @@
 import 'package:hive/hive.dart';
 
-
 @HiveType(typeId: 2)
 class History {
   @HiveField(0)
@@ -21,12 +20,16 @@ class History {
     required this.description,
     required this.imagePaths,
   });
+
+  factory History.fromJson(Map<String, dynamic> json) {
+    return History(
+      label: json['label'],
+      title: json['title'],
+      description: json['description'],
+      imagePaths: List<String>.from(json['imagePaths'].map((x) => x)),
+    );
+  }
 }
-
-
-
-
-
 
 class HistoryAdapter extends TypeAdapter<History> {
   @override

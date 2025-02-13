@@ -48,6 +48,22 @@ class Details {
     required this.size,
     required this.finish,
   });
+  
+  factory Details.fromJson(Map<String, dynamic> json) {
+    return Details(
+      distillery: json['distillery'],
+      region: json['region'],
+      country: json['country'],
+      type: json['type'],
+      ageStatement: json['ageStatement'],
+      filled: json['filled'],
+      bottled: json['bottled'],
+      caskNumber: json['caskNumber'],
+      abv: json['abv'],
+      size: json['size'],
+      finish: json['finish'],
+    );
+  }
 }
 
 

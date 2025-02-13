@@ -11,6 +11,7 @@ abstract final class AppColors {
    
   static const Color greyPrimary = Color(0xFFE7E9EA);
   static const Color greySecondary = Color(0xFFB8BDBF);
+  static const Color greyUnselected = Color(0xFF899194);
   
   static const Color blackPrimary = Color(0xFF122329);
   static const Color blackSecondary = Color(0xFF0B1519);

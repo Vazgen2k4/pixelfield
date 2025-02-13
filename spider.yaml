@@ -10,3 +10,11 @@ groups:
   - path: assets/images
     class_name: AppImages
     types: [ .png, .jpg, .jpeg, .webp, .webm, .bmp ]
+    
+  - path: assets/mocks
+    class_name: AppMocks
+    types: [ .json ]
+    
+  - path: assets/icons
+    class_name: AppIcons
+    types: [ .svg ]
