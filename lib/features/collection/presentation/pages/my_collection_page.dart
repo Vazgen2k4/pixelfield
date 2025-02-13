@@ -77,6 +77,12 @@ class _MyCollectionsContent extends StatelessWidget {
                   ),
                 ),
               ],
+              
+              if (bottleRight == null) ...[
+                Expanded(
+                  child: Container(),
+                ),
+              ],
             ],
           ),
         );
@@ -109,7 +115,10 @@ class BottleWidget extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.center,
             spacing: 16,
             children: [
-              Image.asset(bottle.imagePath),
+              Hero(
+                tag: 'bottle[$index]',
+                child: Image.asset(bottle.imagePath),
+              ),
               SizedBox(
                 width: 136,
                 child: AutoSizeText(

@@ -5,12 +5,14 @@ class PrimaryButtonWidget extends StatelessWidget {
   final String text;
   final IconData? icon;
   final VoidCallback? onPressed;
+  final EdgeInsets padding;
 
   const PrimaryButtonWidget({
     super.key,
     required this.text,
     this.onPressed,
     this.icon,
+    this.padding = const EdgeInsets.all(16.0),
   });
 
   @override
@@ -27,10 +29,12 @@ class PrimaryButtonWidget extends StatelessWidget {
 
     if (icon != null) {
       child = Row(
+        mainAxisSize: MainAxisSize.min,
         children: [
           Icon(
             icon,
             color: AppColors.blackSecondary,
+            size: 24.0,
           ),
           SizedBox(width: 8),
           child,
@@ -41,7 +45,7 @@ class PrimaryButtonWidget extends StatelessWidget {
     return ElevatedButton(
       style: ButtonStyle(
         backgroundColor: WidgetStateProperty.all(AppColors.primary),
-        padding: WidgetStateProperty.all(EdgeInsets.all(16.0)),
+        padding: WidgetStateProperty.all(padding),
         shape: WidgetStateProperty.all(
           RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(8.0),

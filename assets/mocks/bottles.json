@@ -19,7 +19,17 @@
             {
                 "author": "Charles MacLean MBE",
                 "title": "Nose",
-                "description": "Peat smoke, citrus, sea salt, and vanilla."
+                "description": "Rich peat smoke with hints of citrus and sea salt."
+            },
+            {
+                "author": "Charles MacLean MBE",
+                "title": "Palate",
+                "description": "Bold and spicy with a touch of vanilla and oak."
+            },
+            {
+                "author": "Charles MacLean MBE",
+                "title": "Finish",
+                "description": "Long and warming with a smoky aftertaste."
             }
         ],
         "history": [
@@ -29,6 +39,78 @@
                 "description": "The first batch of Talisker 18 was released in 2022.",
                 "imagePaths": [
                     "assets/images/bottle.png"
+                ]
+            },
+            {
+                "label": "Award Winning",
+                "title": "Gold Medal at International Spirits Challenge",
+                "description": "Talisker 18 won a gold medal in 2022.",
+                "imagePaths": [
+                    "assets/images/award.png"
+                ]
+            },
+            {
+                "label": "Limited Edition",
+                "title": "Special Edition Release",
+                "description": "A limited edition release with unique packaging.",
+                "imagePaths": [
+                    "assets/images/limited.png"
+                ]
+            },
+            {
+                "label": "Distillery Tour",
+                "title": "Public Opening of Talisker Distillery",
+                "description": "The distillery opened its doors to the public in 2023.",
+                "imagePaths": [
+                    "assets/images/tour.png"
+                ]
+            },
+            {
+                "label": "Collaboration",
+                "title": "Talisker x Ocean Conservation",
+                "description": "A special release to support ocean conservation efforts.",
+                "imagePaths": [
+                    "assets/images/collab.png"
+                ]
+            },
+            {
+                "label": "Anniversary",
+                "title": "200th Anniversary Celebration",
+                "description": "Celebrating 200 years of Talisker distillery.",
+                "imagePaths": [
+                    "assets/images/anniversary.png"
+                ]
+            },
+            {
+                "label": "Cask Strength",
+                "title": "Cask Strength Release",
+                "description": "A limited cask strength edition released in 2023.",
+                "imagePaths": [
+                    "assets/images/cask.png"
+                ]
+            },
+            {
+                "label": "Festival",
+                "title": "Featured at Whisky Festival",
+                "description": "Talisker 18 was featured at the 2023 Whisky Festival.",
+                "imagePaths": [
+                    "assets/images/festival.png"
+                ]
+            },
+            {
+                "label": "Charity",
+                "title": "Charity Auction",
+                "description": "A rare bottle was auctioned for charity in 2023.",
+                "imagePaths": [
+                    "assets/images/charity.png"
+                ]
+            },
+            {
+                "label": "Export",
+                "title": "Expansion to New Markets",
+                "description": "Talisker 18 expanded to Asian markets in 2023.",
+                "imagePaths": [
+                    "assets/images/export.png"
                 ]
             }
         ],
@@ -52,9 +134,19 @@
         },
         "tastingNotes": [
             {
-                "author": "Jim Murray",
+                "author": "Charles MacLean MBE",
                 "title": "Nose",
-                "description": "Honey, oak, and light spice."
+                "description": "Sweet and fruity with notes of pear and apple."
+            },
+            {
+                "author": "Charles MacLean MBE",
+                "title": "Palate",
+                "description": "Smooth and rich with hints of oak and vanilla."
+            },
+            {
+                "author": "Charles MacLean MBE",
+                "title": "Finish",
+                "description": "Long and satisfying with a touch of spice."
             }
         ],
         "history": [
@@ -64,6 +156,78 @@
                 "description": "A limited edition release for the 21st anniversary.",
                 "imagePaths": [
                     "assets/images/bottle.png"
+                ]
+            },
+            {
+                "label": "Award",
+                "title": "Best Single Malt at World Whisky Awards",
+                "description": "Glenfiddich 21 won the best single malt award in 2022.",
+                "imagePaths": [
+                    "assets/images/award.png"
+                ]
+            },
+            {
+                "label": "Collaboration",
+                "title": "Glenfiddich x Fashion Brand",
+                "description": "A collaboration with a luxury fashion brand in 2023.",
+                "imagePaths": [
+                    "assets/images/collab.png"
+                ]
+            },
+            {
+                "label": "Anniversary",
+                "title": "130th Anniversary Celebration",
+                "description": "Celebrating 130 years of Glenfiddich distillery.",
+                "imagePaths": [
+                    "assets/images/anniversary.png"
+                ]
+            },
+            {
+                "label": "Cask Strength",
+                "title": "Cask Strength Release",
+                "description": "A limited cask strength edition released in 2023.",
+                "imagePaths": [
+                    "assets/images/cask.png"
+                ]
+            },
+            {
+                "label": "Festival",
+                "title": "Featured at Whisky Festival",
+                "description": "Glenfiddich 21 was featured at the 2023 Whisky Festival.",
+                "imagePaths": [
+                    "assets/images/festival.png"
+                ]
+            },
+            {
+                "label": "Charity",
+                "title": "Charity Auction",
+                "description": "A rare bottle was auctioned for charity in 2023.",
+                "imagePaths": [
+                    "assets/images/charity.png"
+                ]
+            },
+            {
+                "label": "Export",
+                "title": "Expansion to New Markets",
+                "description": "Glenfiddich 21 expanded to Asian markets in 2023.",
+                "imagePaths": [
+                    "assets/images/export.png"
+                ]
+            },
+            {
+                "label": "Limited Edition",
+                "title": "Special Edition Release",
+                "description": "A limited edition release with unique packaging.",
+                "imagePaths": [
+                    "assets/images/limited.png"
+                ]
+            },
+            {
+                "label": "Distillery Tour",
+                "title": "Public Opening of Glenfiddich Distillery",
+                "description": "The distillery opened its doors to the public in 2023.",
+                "imagePaths": [
+                    "assets/images/tour.png"
                 ]
             }
         ],
@@ -87,9 +251,19 @@
         },
         "tastingNotes": [
             {
-                "author": "John Campbell",
+                "author": "Charles MacLean MBE",
                 "title": "Nose",
-                "description": "Rich oak, dried fruit, and caramel."
+                "description": "Rich and sweet with notes of dried fruit and oak."
+            },
+            {
+                "author": "Charles MacLean MBE",
+                "title": "Palate",
+                "description": "Smooth and balanced with hints of vanilla and spice."
+            },
+            {
+                "author": "Charles MacLean MBE",
+                "title": "Finish",
+                "description": "Long and warming with a touch of sweetness."
             }
         ],
         "history": [
@@ -100,250 +274,779 @@
                 "imagePaths": [
                     "assets/images/bottle.png"
                 ]
-            }
-        ],
-        "imagePath": "assets/images/bottle.png"
-    },
-    {
-        "name": "Yamazaki",
-        "bottleNumber": "#1234",
-        "details": {
-            "distillery": "Suntory Yamazaki Distillery",
-            "region": "Japan",
-            "country": "Japan",
-            "type": "Single Malt Whisky",
-            "ageStatement": "18 Years Old",
-            "filled": "2020-04-22",
-            "bottled": "2020-09-18",
-            "caskNumber": "1234",
-            "abv": 43.0,
-            "size": "700ml",
-            "finish": "Smooth, Spicy"
-        },
-        "tastingNotes": [
+            },
             {
-                "author": "Fumio Saito",
-                "title": "Nose",
-                "description": "Oak, chocolate, and dried fruits."
-            }
-        ],
-        "history": [
-            {
-                "label": "Premium Release",
-                "title": "Exclusive Yamazaki 18th Release",
-                "description": "A very limited release of Yamazaki 18 year old with complex flavors.",
+                "label": "Award",
+                "title": "Gold Medal at International Spirits Challenge",
+                "description": "Macallan 12 won a gold medal in 2020.",
                 "imagePaths": [
-                    "assets/images/bottle.png"
+                    "assets/images/award.png"
+                ]
+            },
+            {
+                "label": "Collaboration",
+                "title": "Macallan x Luxury Watch Brand",
+                "description": "A collaboration with a luxury watch brand in 2021.",
+                "imagePaths": [
+                    "assets/images/collab.png"
+                ]
+            },
+            {
+                "label": "Anniversary",
+                "title": "200th Anniversary Celebration",
+                "description": "Celebrating 200 years of Macallan distillery.",
+                "imagePaths": [
+                    "assets/images/anniversary.png"
+                ]
+            },
+            {
+                "label": "Cask Strength",
+                "title": "Cask Strength Release",
+                "description": "A limited cask strength edition released in 2022.",
+                "imagePaths": [
+                    "assets/images/cask.png"
+                ]
+            },
+            {
+                "label": "Festival",
+                "title": "Featured at Whisky Festival",
+                "description": "Macallan 12 was featured at the 2022 Whisky Festival.",
+                "imagePaths": [
+                    "assets/images/festival.png"
+                ]
+            },
+            {
+                "label": "Charity",
+                "title": "Charity Auction",
+                "description": "A rare bottle was auctioned for charity in 2022.",
+                "imagePaths": [
+                    "assets/images/charity.png"
+                ]
+            },
+            {
+                "label": "Export",
+                "title": "Expansion to New Markets",
+                "description": "Macallan 12 expanded to Asian markets in 2022.",
+                "imagePaths": [
+                    "assets/images/export.png"
+                ]
+            },
+            {
+                "label": "Limited Edition",
+                "title": "Special Edition Release",
+                "description": "A limited edition release with unique packaging.",
+                "imagePaths": [
+                    "assets/images/limited.png"
+                ]
+            },
+            {
+                "label": "Distillery Tour",
+                "title": "Public Opening of Macallan Distillery",
+                "description": "The distillery opened its doors to the public in 2023.",
+                "imagePaths": [
+                    "assets/images/tour.png"
                 ]
             }
         ],
         "imagePath": "assets/images/bottle.png"
     },
     {
-        "name": "Lagavulin",
-        "bottleNumber": "#5678",
+        "name": "Talisker",
+        "bottleNumber": "#2504",
         "details": {
-            "distillery": "Lagavulin Distillery",
-            "region": "Islay",
+            "distillery": "Talisker Distillery",
+            "region": "Isle of Skye",
             "country": "Scotland",
             "type": "Single Malt Scotch Whisky",
-            "ageStatement": "16 Years Old",
-            "filled": "2018-06-10",
-            "bottled": "2018-11-01",
-            "caskNumber": "5678",
-            "abv": 43.0,
+            "ageStatement": "18 Years Old",
+            "filled": "2022-01-01",
+            "bottled": "2022-05-01",
+            "caskNumber": "2504",
+            "abv": 46.0,
             "size": "700ml",
-            "finish": "Peaty, Smoky"
+            "finish": "Smoky, Peaty"
         },
         "tastingNotes": [
             {
-                "author": "Michael Jackson",
+                "author": "Charles MacLean MBE",
                 "title": "Nose",
-                "description": "Heavy peat smoke, vanilla, and seaweed."
+                "description": "Rich peat smoke with hints of citrus and sea salt."
+            },
+            {
+                "author": "Charles MacLean MBE",
+                "title": "Palate",
+                "description": "Bold and spicy with a touch of vanilla and oak."
+            },
+            {
+                "author": "Charles MacLean MBE",
+                "title": "Finish",
+                "description": "Long and warming with a smoky aftertaste."
             }
         ],
         "history": [
             {
-                "label": "Classic Islay",
-                "title": "Lagavulin 16th Anniversary",
-                "description": "Celebrating the 16th year of Lagavulin's iconic expression.",
+                "label": "First Release",
+                "title": "The Beginning of the Talisker 18 Year Old",
+                "description": "The first batch of Talisker 18 was released in 2022.",
                 "imagePaths": [
                     "assets/images/bottle.png"
+                ]
+            },
+            {
+                "label": "Award Winning",
+                "title": "Gold Medal at International Spirits Challenge",
+                "description": "Talisker 18 won a gold medal in 2022.",
+                "imagePaths": [
+                    "assets/images/award.png"
+                ]
+            },
+            {
+                "label": "Limited Edition",
+                "title": "Special Edition Release",
+                "description": "A limited edition release with unique packaging.",
+                "imagePaths": [
+                    "assets/images/limited.png"
+                ]
+            },
+            {
+                "label": "Distillery Tour",
+                "title": "Public Opening of Talisker Distillery",
+                "description": "The distillery opened its doors to the public in 2023.",
+                "imagePaths": [
+                    "assets/images/tour.png"
+                ]
+            },
+            {
+                "label": "Collaboration",
+                "title": "Talisker x Ocean Conservation",
+                "description": "A special release to support ocean conservation efforts.",
+                "imagePaths": [
+                    "assets/images/collab.png"
+                ]
+            },
+            {
+                "label": "Anniversary",
+                "title": "200th Anniversary Celebration",
+                "description": "Celebrating 200 years of Talisker distillery.",
+                "imagePaths": [
+                    "assets/images/anniversary.png"
+                ]
+            },
+            {
+                "label": "Cask Strength",
+                "title": "Cask Strength Release",
+                "description": "A limited cask strength edition released in 2023.",
+                "imagePaths": [
+                    "assets/images/cask.png"
+                ]
+            },
+            {
+                "label": "Festival",
+                "title": "Featured at Whisky Festival",
+                "description": "Talisker 18 was featured at the 2023 Whisky Festival.",
+                "imagePaths": [
+                    "assets/images/festival.png"
+                ]
+            },
+            {
+                "label": "Charity",
+                "title": "Charity Auction",
+                "description": "A rare bottle was auctioned for charity in 2023.",
+                "imagePaths": [
+                    "assets/images/charity.png"
+                ]
+            },
+            {
+                "label": "Export",
+                "title": "Expansion to New Markets",
+                "description": "Talisker 18 expanded to Asian markets in 2023.",
+                "imagePaths": [
+                    "assets/images/export.png"
                 ]
             }
         ],
         "imagePath": "assets/images/bottle.png"
     },
     {
-        "name": "Glenlivet",
-        "bottleNumber": "#6789",
+        "name": "Glenfiddich",
+        "bottleNumber": "#3412",
         "details": {
-            "distillery": "Glenlivet Distillery",
+            "distillery": "Glenfiddich Distillery",
             "region": "Speyside",
             "country": "Scotland",
             "type": "Single Malt Scotch Whisky",
-            "ageStatement": "18 Years Old",
-            "filled": "2021-01-15",
-            "bottled": "2021-06-01",
-            "caskNumber": "6789",
+            "ageStatement": "21 Years Old",
+            "filled": "2021-03-15",
+            "bottled": "2021-08-20",
+            "caskNumber": "3412",
             "abv": 40.0,
             "size": "700ml",
-            "finish": "Smooth, Fruity"
+            "finish": "Rich, Fruity"
         },
         "tastingNotes": [
             {
-                "author": "Whisky Advocate",
+                "author": "Charles MacLean MBE",
                 "title": "Nose",
-                "description": "Peach, honey, and floral notes."
+                "description": "Sweet and fruity with notes of pear and apple."
+            },
+            {
+                "author": "Charles MacLean MBE",
+                "title": "Palate",
+                "description": "Smooth and rich with hints of oak and vanilla."
+            },
+            {
+                "author": "Charles MacLean MBE",
+                "title": "Finish",
+                "description": "Long and satisfying with a touch of spice."
             }
         ],
         "history": [
             {
-                "label": "Anniversary Edition",
-                "title": "Glenlivet 18th Year Anniversary",
-                "description": "Released to celebrate the distillery's 18 years of excellence.",
+                "label": "Special Release",
+                "title": "Glenfiddich 21st Anniversary",
+                "description": "A limited edition release for the 21st anniversary.",
                 "imagePaths": [
                     "assets/images/bottle.png"
+                ]
+            },
+            {
+                "label": "Award",
+                "title": "Best Single Malt at World Whisky Awards",
+                "description": "Glenfiddich 21 won the best single malt award in 2022.",
+                "imagePaths": [
+                    "assets/images/award.png"
+                ]
+            },
+            {
+                "label": "Collaboration",
+                "title": "Glenfiddich x Fashion Brand",
+                "description": "A collaboration with a luxury fashion brand in 2023.",
+                "imagePaths": [
+                    "assets/images/collab.png"
+                ]
+            },
+            {
+                "label": "Anniversary",
+                "title": "130th Anniversary Celebration",
+                "description": "Celebrating 130 years of Glenfiddich distillery.",
+                "imagePaths": [
+                    "assets/images/anniversary.png"
+                ]
+            },
+            {
+                "label": "Cask Strength",
+                "title": "Cask Strength Release",
+                "description": "A limited cask strength edition released in 2023.",
+                "imagePaths": [
+                    "assets/images/cask.png"
+                ]
+            },
+            {
+                "label": "Festival",
+                "title": "Featured at Whisky Festival",
+                "description": "Glenfiddich 21 was featured at the 2023 Whisky Festival.",
+                "imagePaths": [
+                    "assets/images/festival.png"
+                ]
+            },
+            {
+                "label": "Charity",
+                "title": "Charity Auction",
+                "description": "A rare bottle was auctioned for charity in 2023.",
+                "imagePaths": [
+                    "assets/images/charity.png"
+                ]
+            },
+            {
+                "label": "Export",
+                "title": "Expansion to New Markets",
+                "description": "Glenfiddich 21 expanded to Asian markets in 2023.",
+                "imagePaths": [
+                    "assets/images/export.png"
+                ]
+            },
+            {
+                "label": "Limited Edition",
+                "title": "Special Edition Release",
+                "description": "A limited edition release with unique packaging.",
+                "imagePaths": [
+                    "assets/images/limited.png"
+                ]
+            },
+            {
+                "label": "Distillery Tour",
+                "title": "Public Opening of Glenfiddich Distillery",
+                "description": "The distillery opened its doors to the public in 2023.",
+                "imagePaths": [
+                    "assets/images/tour.png"
                 ]
             }
         ],
         "imagePath": "assets/images/bottle.png"
     },
     {
-        "name": "Balvenie ",
-        "bottleNumber": "#7890",
+        "name": "Talisker",
+        "bottleNumber": "#2504",
         "details": {
-            "distillery": "Balvenie Distillery",
+            "distillery": "Talisker Distillery",
+            "region": "Isle of Skye",
+            "country": "Scotland",
+            "type": "Single Malt Scotch Whisky",
+            "ageStatement": "18 Years Old",
+            "filled": "2022-01-01",
+            "bottled": "2022-05-01",
+            "caskNumber": "2504",
+            "abv": 46.0,
+            "size": "700ml",
+            "finish": "Smoky, Peaty"
+        },
+        "tastingNotes": [
+            {
+                "author": "Charles MacLean MBE",
+                "title": "Nose",
+                "description": "Rich peat smoke with hints of citrus and sea salt."
+            },
+            {
+                "author": "Charles MacLean MBE",
+                "title": "Palate",
+                "description": "Bold and spicy with a touch of vanilla and oak."
+            },
+            {
+                "author": "Charles MacLean MBE",
+                "title": "Finish",
+                "description": "Long and warming with a smoky aftertaste."
+            }
+        ],
+        "history": [
+            {
+                "label": "First Release",
+                "title": "The Beginning of the Talisker 18 Year Old",
+                "description": "The first batch of Talisker 18 was released in 2022.",
+                "imagePaths": [
+                    "assets/images/bottle.png"
+                ]
+            },
+            {
+                "label": "Award Winning",
+                "title": "Gold Medal at International Spirits Challenge",
+                "description": "Talisker 18 won a gold medal in 2022.",
+                "imagePaths": [
+                    "assets/images/award.png"
+                ]
+            },
+            {
+                "label": "Limited Edition",
+                "title": "Special Edition Release",
+                "description": "A limited edition release with unique packaging.",
+                "imagePaths": [
+                    "assets/images/limited.png"
+                ]
+            },
+            {
+                "label": "Distillery Tour",
+                "title": "Public Opening of Talisker Distillery",
+                "description": "The distillery opened its doors to the public in 2023.",
+                "imagePaths": [
+                    "assets/images/tour.png"
+                ]
+            },
+            {
+                "label": "Collaboration",
+                "title": "Talisker x Ocean Conservation",
+                "description": "A special release to support ocean conservation efforts.",
+                "imagePaths": [
+                    "assets/images/collab.png"
+                ]
+            },
+            {
+                "label": "Anniversary",
+                "title": "200th Anniversary Celebration",
+                "description": "Celebrating 200 years of Talisker distillery.",
+                "imagePaths": [
+                    "assets/images/anniversary.png"
+                ]
+            },
+            {
+                "label": "Cask Strength",
+                "title": "Cask Strength Release",
+                "description": "A limited cask strength edition released in 2023.",
+                "imagePaths": [
+                    "assets/images/cask.png"
+                ]
+            },
+            {
+                "label": "Festival",
+                "title": "Featured at Whisky Festival",
+                "description": "Talisker 18 was featured at the 2023 Whisky Festival.",
+                "imagePaths": [
+                    "assets/images/festival.png"
+                ]
+            },
+            {
+                "label": "Charity",
+                "title": "Charity Auction",
+                "description": "A rare bottle was auctioned for charity in 2023.",
+                "imagePaths": [
+                    "assets/images/charity.png"
+                ]
+            },
+            {
+                "label": "Export",
+                "title": "Expansion to New Markets",
+                "description": "Talisker 18 expanded to Asian markets in 2023.",
+                "imagePaths": [
+                    "assets/images/export.png"
+                ]
+            }
+        ],
+        "imagePath": "assets/images/bottle.png"
+    },
+    {
+        "name": "Glenfiddich",
+        "bottleNumber": "#3412",
+        "details": {
+            "distillery": "Glenfiddich Distillery",
+            "region": "Speyside",
+            "country": "Scotland",
+            "type": "Single Malt Scotch Whisky",
+            "ageStatement": "21 Years Old",
+            "filled": "2021-03-15",
+            "bottled": "2021-08-20",
+            "caskNumber": "3412",
+            "abv": 40.0,
+            "size": "700ml",
+            "finish": "Rich, Fruity"
+        },
+        "tastingNotes": [
+            {
+                "author": "Charles MacLean MBE",
+                "title": "Nose",
+                "description": "Sweet and fruity with notes of pear and apple."
+            },
+            {
+                "author": "Charles MacLean MBE",
+                "title": "Palate",
+                "description": "Smooth and rich with hints of oak and vanilla."
+            },
+            {
+                "author": "Charles MacLean MBE",
+                "title": "Finish",
+                "description": "Long and satisfying with a touch of spice."
+            }
+        ],
+        "history": [
+            {
+                "label": "Special Release",
+                "title": "Glenfiddich 21st Anniversary",
+                "description": "A limited edition release for the 21st anniversary.",
+                "imagePaths": [
+                    "assets/images/bottle.png"
+                ]
+            },
+            {
+                "label": "Award",
+                "title": "Best Single Malt at World Whisky Awards",
+                "description": "Glenfiddich 21 won the best single malt award in 2022.",
+                "imagePaths": [
+                    "assets/images/award.png"
+                ]
+            },
+            {
+                "label": "Collaboration",
+                "title": "Glenfiddich x Fashion Brand",
+                "description": "A collaboration with a luxury fashion brand in 2023.",
+                "imagePaths": [
+                    "assets/images/collab.png"
+                ]
+            },
+            {
+                "label": "Anniversary",
+                "title": "130th Anniversary Celebration",
+                "description": "Celebrating 130 years of Glenfiddich distillery.",
+                "imagePaths": [
+                    "assets/images/anniversary.png"
+                ]
+            },
+            {
+                "label": "Cask Strength",
+                "title": "Cask Strength Release",
+                "description": "A limited cask strength edition released in 2023.",
+                "imagePaths": [
+                    "assets/images/cask.png"
+                ]
+            },
+            {
+                "label": "Festival",
+                "title": "Featured at Whisky Festival",
+                "description": "Glenfiddich 21 was featured at the 2023 Whisky Festival.",
+                "imagePaths": [
+                    "assets/images/festival.png"
+                ]
+            },
+            {
+                "label": "Charity",
+                "title": "Charity Auction",
+                "description": "A rare bottle was auctioned for charity in 2023.",
+                "imagePaths": [
+                    "assets/images/charity.png"
+                ]
+            },
+            {
+                "label": "Export",
+                "title": "Expansion to New Markets",
+                "description": "Glenfiddich 21 expanded to Asian markets in 2023.",
+                "imagePaths": [
+                    "assets/images/export.png"
+                ]
+            },
+            {
+                "label": "Limited Edition",
+                "title": "Special Edition Release",
+                "description": "A limited edition release with unique packaging.",
+                "imagePaths": [
+                    "assets/images/limited.png"
+                ]
+            },
+            {
+                "label": "Distillery Tour",
+                "title": "Public Opening of Glenfiddich Distillery",
+                "description": "The distillery opened its doors to the public in 2023.",
+                "imagePaths": [
+                    "assets/images/tour.png"
+                ]
+            }
+        ],
+        "imagePath": "assets/images/bottle.png"
+    },
+    {
+        "name": "Glenfiddich",
+        "bottleNumber": "#3412",
+        "details": {
+            "distillery": "Glenfiddich Distillery",
+            "region": "Speyside",
+            "country": "Scotland",
+            "type": "Single Malt Scotch Whisky",
+            "ageStatement": "21 Years Old",
+            "filled": "2021-03-15",
+            "bottled": "2021-08-20",
+            "caskNumber": "3412",
+            "abv": 40.0,
+            "size": "700ml",
+            "finish": "Rich, Fruity"
+        },
+        "tastingNotes": [
+            {
+                "author": "Charles MacLean MBE",
+                "title": "Nose",
+                "description": "Sweet and fruity with notes of pear and apple."
+            },
+            {
+                "author": "Charles MacLean MBE",
+                "title": "Palate",
+                "description": "Smooth and rich with hints of oak and vanilla."
+            },
+            {
+                "author": "Charles MacLean MBE",
+                "title": "Finish",
+                "description": "Long and satisfying with a touch of spice."
+            }
+        ],
+        "history": [
+            {
+                "label": "Special Release",
+                "title": "Glenfiddich 21st Anniversary",
+                "description": "A limited edition release for the 21st anniversary.",
+                "imagePaths": [
+                    "assets/images/bottle.png"
+                ]
+            },
+            {
+                "label": "Award",
+                "title": "Best Single Malt at World Whisky Awards",
+                "description": "Glenfiddich 21 won the best single malt award in 2022.",
+                "imagePaths": [
+                    "assets/images/award.png"
+                ]
+            },
+            {
+                "label": "Collaboration",
+                "title": "Glenfiddich x Fashion Brand",
+                "description": "A collaboration with a luxury fashion brand in 2023.",
+                "imagePaths": [
+                    "assets/images/collab.png"
+                ]
+            },
+            {
+                "label": "Anniversary",
+                "title": "130th Anniversary Celebration",
+                "description": "Celebrating 130 years of Glenfiddich distillery.",
+                "imagePaths": [
+                    "assets/images/anniversary.png"
+                ]
+            },
+            {
+                "label": "Cask Strength",
+                "title": "Cask Strength Release",
+                "description": "A limited cask strength edition released in 2023.",
+                "imagePaths": [
+                    "assets/images/cask.png"
+                ]
+            },
+            {
+                "label": "Festival",
+                "title": "Featured at Whisky Festival",
+                "description": "Glenfiddich 21 was featured at the 2023 Whisky Festival.",
+                "imagePaths": [
+                    "assets/images/festival.png"
+                ]
+            },
+            {
+                "label": "Charity",
+                "title": "Charity Auction",
+                "description": "A rare bottle was auctioned for charity in 2023.",
+                "imagePaths": [
+                    "assets/images/charity.png"
+                ]
+            },
+            {
+                "label": "Export",
+                "title": "Expansion to New Markets",
+                "description": "Glenfiddich 21 expanded to Asian markets in 2023.",
+                "imagePaths": [
+                    "assets/images/export.png"
+                ]
+            },
+            {
+                "label": "Limited Edition",
+                "title": "Special Edition Release",
+                "description": "A limited edition release with unique packaging.",
+                "imagePaths": [
+                    "assets/images/limited.png"
+                ]
+            },
+            {
+                "label": "Distillery Tour",
+                "title": "Public Opening of Glenfiddich Distillery",
+                "description": "The distillery opened its doors to the public in 2023.",
+                "imagePaths": [
+                    "assets/images/tour.png"
+                ]
+            }
+        ],
+        "imagePath": "assets/images/bottle.png"
+    },
+    {
+        "name": "Macallan ",
+        "bottleNumber": "#4321",
+        "details": {
+            "distillery": "Macallan Distillery",
             "region": "Speyside",
             "country": "Scotland",
             "type": "Single Malt Scotch Whisky",
             "ageStatement": "12 Years Old",
-            "filled": "2019-05-10",
-            "bottled": "2019-08-30",
-            "caskNumber": "7890",
-            "abv": 47.0,
-            "size": "700ml",
-            "finish": "Honeyed, Spicy"
-        },
-        "tastingNotes": [
-            {
-                "author": "Dave Broom",
-                "title": "Nose",
-                "description": "Honey, oak, and cinnamon."
-            }
-        ],
-        "history": [
-            {
-                "label": "Initial Release",
-                "title": "First Balvenie 12 Year Old Batch",
-                "description": "The first batch of Balvenie 12 was released in 2019.",
-                "imagePaths": [
-                    "assets/images/bottle.png"
-                ]
-            }
-        ],
-        "imagePath": "assets/images/bottle.png"
-    },
-    {
-        "name": "Ardbeg",
-        "bottleNumber": "#8901",
-        "details": {
-            "distillery": "Ardbeg Distillery",
-            "region": "Islay",
-            "country": "Scotland",
-            "type": "Single Malt Scotch Whisky",
-            "ageStatement": "10 Years Old",
-            "filled": "2020-02-14",
-            "bottled": "2020-07-05",
-            "caskNumber": "8901",
-            "abv": 46.0,
-            "size": "700ml",
-            "finish": "Intense Peat, Smoky"
-        },
-        "tastingNotes": [
-            {
-                "author": "Mark Dermul",
-                "title": "Nose",
-                "description": "Peat, sea salt, and earthy flavors."
-            }
-        ],
-        "history": [
-            {
-                "label": "Islay Legend",
-                "title": "Ardbeg 10th Anniversary",
-                "description": "Celebrating the long-standing popularity of Ardbeg 10.",
-                "imagePaths": [
-                    "assets/images/bottle.png"
-                ]
-            }
-        ],
-        "imagePath": "assets/images/bottle.png"
-    },
-    {
-        "name": "Glenmorangie",
-        "bottleNumber": "#9012",
-        "details": {
-            "distillery": "Glenmorangie Distillery",
-            "region": "Highlands",
-            "country": "Scotland",
-            "type": "Single Malt Scotch Whisky",
-            "ageStatement": "10 Years Old",
-            "filled": "2020-06-10",
-            "bottled": "2020-12-25",
-            "caskNumber": "9012",
+            "filled": "2019-09-10",
+            "bottled": "2020-03-15",
+            "caskNumber": "4321",
             "abv": 43.0,
             "size": "700ml",
-            "finish": "Fruity, Floral"
+            "finish": "Sweet, Oaky"
         },
         "tastingNotes": [
             {
-                "author": "Richard Paterson",
+                "author": "Charles MacLean MBE",
                 "title": "Nose",
-                "description": "Honey, vanilla, and citrus fruits."
+                "description": "Rich and sweet with notes of dried fruit and oak."
+            },
+            {
+                "author": "Charles MacLean MBE",
+                "title": "Palate",
+                "description": "Smooth and balanced with hints of vanilla and spice."
+            },
+            {
+                "author": "Charles MacLean MBE",
+                "title": "Finish",
+                "description": "Long and warming with a touch of sweetness."
             }
         ],
         "history": [
             {
-                "label": "Standard Release",
-                "title": "Glenmorangie 10 Year Old",
-                "description": "Glenmorangie 10 Year Old is the classic, iconic expression of Glenmorangie.",
+                "label": "First Batch",
+                "title": "Initial Macallan 12 Year Old Release",
+                "description": "The first batch was released in 2019, known for its bold character.",
                 "imagePaths": [
                     "assets/images/bottle.png"
                 ]
-            }
-        ],
-        "imagePath": "assets/images/bottle.png"
-    },
-    {
-        "name": "Test",
-        "bottleNumber": "#9012",
-        "details": {
-            "distillery": "Glenmorangie Distillery",
-            "region": "Highlands",
-            "country": "Scotland",
-            "type": "Single Malt Scotch Whisky",
-            "ageStatement": "10 Years Old",
-            "filled": "2020-06-10",
-            "bottled": "2020-12-25",
-            "caskNumber": "9012",
-            "abv": 43.0,
-            "size": "700ml",
-            "finish": "Fruity, Floral"
-        },
-        "tastingNotes": [
+            },
             {
-                "author": "Richard Paterson",
-                "title": "Nose",
-                "description": "Honey, vanilla, and citrus fruits."
-            }
-        ],
-        "history": [
-            {
-                "label": "Standard Release",
-                "title": "Glenmorangie 10 Year Old",
-                "description": "Glenmorangie 10 Year Old is the classic, iconic expression of Glenmorangie.",
+                "label": "Award",
+                "title": "Gold Medal at International Spirits Challenge",
+                "description": "Macallan 12 won a gold medal in 2020.",
                 "imagePaths": [
-                    "assets/images/bottle.png"
+                    "assets/images/award.png"
+                ]
+            },
+            {
+                "label": "Collaboration",
+                "title": "Macallan x Luxury Watch Brand",
+                "description": "A collaboration with a luxury watch brand in 2021.",
+                "imagePaths": [
+                    "assets/images/collab.png"
+                ]
+            },
+            {
+                "label": "Anniversary",
+                "title": "200th Anniversary Celebration",
+                "description": "Celebrating 200 years of Macallan distillery.",
+                "imagePaths": [
+                    "assets/images/anniversary.png"
+                ]
+            },
+            {
+                "label": "Cask Strength",
+                "title": "Cask Strength Release",
+                "description": "A limited cask strength edition released in 2022.",
+                "imagePaths": [
+                    "assets/images/cask.png"
+                ]
+            },
+            {
+                "label": "Festival",
+                "title": "Featured at Whisky Festival",
+                "description": "Macallan 12 was featured at the 2022 Whisky Festival.",
+                "imagePaths": [
+                    "assets/images/festival.png"
+                ]
+            },
+            {
+                "label": "Charity",
+                "title": "Charity Auction",
+                "description": "A rare bottle was auctioned for charity in 2022.",
+                "imagePaths": [
+                    "assets/images/charity.png"
+                ]
+            },
+            {
+                "label": "Export",
+                "title": "Expansion to New Markets",
+                "description": "Macallan 12 expanded to Asian markets in 2022.",
+                "imagePaths": [
+                    "assets/images/export.png"
+                ]
+            },
+            {
+                "label": "Limited Edition",
+                "title": "Special Edition Release",
+                "description": "A limited edition release with unique packaging.",
+                "imagePaths": [
+                    "assets/images/limited.png"
+                ]
+            },
+            {
+                "label": "Distillery Tour",
+                "title": "Public Opening of Macallan Distillery",
+                "description": "The distillery opened its doors to the public in 2023.",
+                "imagePaths": [
+                    "assets/images/tour.png"
                 ]
             }
         ],

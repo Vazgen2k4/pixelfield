@@ -14,6 +14,7 @@ class PageWrapper extends StatelessWidget {
   final List<PageRouteInfo<dynamic>>? routes;
   final List<BottomNavigationBarItem> bottomNavigationItems;
   final int homeIndex;
+  final FloatingActionButtonLocation floatingActionButtonLocation;
 
   final AppBarWrapperParams? appBarParams;
 
@@ -23,6 +24,7 @@ class PageWrapper extends StatelessWidget {
     this.floatActionButton,
     required this.child,
     this.alignment,
+    this.floatingActionButtonLocation = FloatingActionButtonLocation.endFloat,
     this.appBarParams,
   })  : _type = PageWrapperType.classic,
         routes = null,
@@ -38,6 +40,7 @@ class PageWrapper extends StatelessWidget {
     required this.child,
     required this.routes,
     required this.bottomNavigationItems,
+    this.floatingActionButtonLocation = FloatingActionButtonLocation.endFloat,
     this.homeIndex = 0,
   }) : _type = PageWrapperType.tabs;
 
@@ -95,6 +98,7 @@ class PageWrapper extends StatelessWidget {
       appBar: _buildAppBar(context, appBarParams?.title),
       body: _buildBody(context, image),
       floatingActionButton: floatActionButton,
+      floatingActionButtonLocation: floatingActionButtonLocation,
     );
   }
 
@@ -103,18 +107,15 @@ class PageWrapper extends StatelessWidget {
       width: double.infinity,
       height: double.infinity,
       decoration: BoxDecoration(image: image),
-      padding: EdgeInsets.all(16),
-      margin: EdgeInsets.only(top: MediaQuery.of(context).padding.top),
+      padding: EdgeInsets.fromLTRB(16,0,16,16),
       alignment: alignment,
-      child: Padding(
-        padding: EdgeInsets.only(top: appBarParams?.toolbarHeight ?? 0),
-        child: child,
-      ),
+      child: SafeArea(child: child),
     );
   }
 
   Widget _buildTabs(BuildContext context, DecorationImage? image) {
     return AutoTabsScaffold(
+      floatingActionButtonLocation: floatingActionButtonLocation,
       homeIndex: homeIndex,
       appBarBuilder: (context, tabsRouter) => _buildAppBar(
         context,

@@ -1,7 +1,6 @@
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:flutter/material.dart';
 import 'package:test_pixelfield/core/router/router.dart';
-import 'package:test_pixelfield/core/presentation/theme/app_colors.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:test_pixelfield/core/presentation/theme/app_themes.dart';
 import 'package:test_pixelfield/features/collection/domain/repositories/collection_repository.dart';

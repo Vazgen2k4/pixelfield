@@ -1,4 +1,3 @@
-// ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'package:auto_route/auto_route.dart';
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
@@ -7,13 +6,14 @@ import 'package:test_pixelfield/core/models/bottle.dart';
 import 'package:test_pixelfield/core/presentation/theme/app_colors.dart';
 import 'package:test_pixelfield/core/presentation/widgets/page_wrapper.dart';
 import 'package:test_pixelfield/features/auth/presentation/widgets/primary_button.dart';
+import 'package:test_pixelfield/features/collection/presentation/widgets/details_tab_bar.dart';
 
 @RoutePage()
 class DetailsPage extends StatelessWidget {
   final Bottle bottle;
   final int index;
   final int bottlesCount;
-  
+
   const DetailsPage({
     super.key,
     required this.bottle,
@@ -26,7 +26,19 @@ class DetailsPage extends StatelessWidget {
     return PageWrapper(
       withBg: true,
       alignment: Alignment.topCenter,
-      floatActionButton: PrimaryButtonWidget(text: 'Add to my collection'),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
+      floatActionButton: Hero(
+        tag: 'button',
+        child: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 16),
+          child: PrimaryButtonWidget(
+            text: 'Add to my collection',
+            padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+            icon: Icons.add,
+            onPressed: () {},
+          ),
+        ),
+      ),
       appBarParams: AppBarWrapperParams(
         title: 'Genesis Collection',
         titleIsLabel: true,
@@ -58,7 +70,7 @@ class _DetailsContent extends StatelessWidget {
   final Bottle bottle;
   final int index;
   final int bottlesCount;
-  
+
   const _DetailsContent(
     this.bottle,
     this.index,
@@ -71,12 +83,16 @@ class _DetailsContent extends StatelessWidget {
       child: Column(
         spacing: 16.0,
         children: [
-          Padding(
-            padding: const EdgeInsets.symmetric(vertical: 22, horizontal: 16),
-            child: Image.asset(bottle.imagePath),
+          Hero(
+            tag: 'bottle[$index]',
+            child: Padding(
+              padding: const EdgeInsets.symmetric(vertical: 22, horizontal: 16),
+              child: Image.asset(bottle.imagePath),
+            ),
           ),
           Container(
             padding: EdgeInsets.all(16),
+            margin: EdgeInsets.only(bottom: 70),
             color: AppColors.blackPrimary,
             width: double.infinity,
             child: Column(
@@ -93,7 +109,6 @@ class _DetailsContent extends StatelessWidget {
                     height: 24 / 16,
                   ),
                 ),
-                
                 AutoSizeText.rich(
                   TextSpan(text: bottle.name, children: [
                     TextSpan(
@@ -120,6 +135,7 @@ class _DetailsContent extends StatelessWidget {
                     height: 40 / 32,
                   ),
                 ),
+                DetailsTabBar(bottle: bottle),
               ],
             ),
           )
@@ -128,3 +144,4 @@ class _DetailsContent extends StatelessWidget {
     );
   }
 }
+
