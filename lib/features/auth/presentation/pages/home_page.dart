@@ -9,7 +9,9 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return PageWrapper(
+    return PageWrapper.tabs(
+      routes: [
+      ],
       title: '',
       child: SingleChildScrollView(
         child: Text('Home page'),

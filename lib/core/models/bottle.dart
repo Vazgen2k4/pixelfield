@@ -32,6 +32,17 @@ class Bottle {
     required this.history,
     required this.imagePath,
   });
+
+  factory Bottle.fromJson(Map<String, dynamic> json) {
+    return Bottle(
+      name: json['name'],
+      bottleNumber: json['bottleNumber'],
+      details: Details.fromJson(json['details']),
+      tastingNotes: List<TastingNote>.from(json['tastingNotes'].map((x) => TastingNote.fromJson(x))),
+      history: List<History>.from(json['history'].map((x) => History.fromJson(x))),
+      imagePath: json['imagePath'],
+    );
+  }
 }
 
 class BottleAdapter extends TypeAdapter<Bottle> {
